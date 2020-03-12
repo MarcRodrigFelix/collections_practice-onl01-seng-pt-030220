@@ -57,7 +57,8 @@ end
 
 
 def sum_array(ints)
-  ints.inject { |sum, num| sum + num }
+  # ints.inject { |sum, num| sum + num }
+  ints.inject(:+)
 end
 
 
